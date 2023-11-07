@@ -1,0 +1,54 @@
+.popup {
+    display: none;
+    font-family: MOLEN;
+    border: 2px solid teal;
+    box-shadow: 0 0 10px black;
+    color: white !important;
+    padding: 10px;
+    border-radius: 5px;
+    height: auto;
+    width: fit-content;
+    padding: 5px;
+    max-width: 200px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-image: url('../images/pumpkin-2892303_640.jpg');
+    background-size: cover;
+    background-blend-mode: color-burn;
+}
+
+.popup .close {
+    color: darkred;
+    font-family: FCB;
+    font-size: 30px;
+    margin: 0;
+    text-align: right;
+    cursor: pointer;
+    width: fit-content;
+    transition: all 0.2s ease-in-out;
+    padding: 5px;
+}
+
+.popup .close:hover {
+    color: red;
+    font-size: 30.5px;
+}
+
+.popup .title {
+    font-family: FCB;
+    margin: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: var(--primary-color-1);
+    text-shadow: 0 0 20px black;
+}
+
+.popup .text {
+    font-family: HTTF;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: blueviolet;
+}
