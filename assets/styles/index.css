@@ -108,7 +108,7 @@ header .items button:hover {
     border-color: transparent;
 }
 
-.page-1 {background-image: linear-gradient(to bottom, transparent, var(--background-color)), url("/assets/images/5079835.jpg");
+.page-1 {background-image: linear-gradient(to bottom, transparent, var(--background-color)), url("assets/images/5079835.jpg");
     background-size: cover;
     height: calc(100vh - 80px);
     animation: fade-in 5s ease-in-out;
