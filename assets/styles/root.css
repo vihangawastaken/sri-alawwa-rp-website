@@ -1,0 +1,28 @@
+:root {
+    --background-color:#000016;
+    --primary-color-1:rgb(1, 187, 239);
+    --primary-color-2:#0CBABA;
+    --primary-color-3:#E0BAD7;
+    --primary-color-4:#805D93;
+    --forground-color:#ffffff;
+    --primary-font:MOLEN;
+    --sec-font:NRL;
+    --primary-font-italic:MOLE;
+    --primary-color-1w:rgba(1, 187, 239, 0.24);
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    border: 1px solid var(--primary-color-2);
+    border-radius: 2px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary-color-1);
+    border-radius: 5px;
+  }

@@ -1,0 +1,45 @@
+ 
+@font-face {
+    font-family: NRL;
+    src: url(../../fonts/nrl.ttf);
+  }
+    
+  @font-face {
+    font-family: MOLE;
+    src: url(../../fonts/VictorMono-Italic-VariableFont_wght.ttf);
+  }
+ 
+  @font-face {
+    font-family: MOLEN;
+    src: url(/fonts/VictorMono-VariableFont_wght.ttf);
+  }
+
+  @font-face {
+    font-family: MNI;
+    src: url(../../fonts/DAYTON__.TTF);
+  }
+  
+  @font-face {
+    font-family: GTA;
+    src: url(../../fonts/pricedow.ttf);
+  }
+  
+  @font-face {
+    font-family: RP;
+    src: url(../../fonts/Natural\ Coffee.otf);
+  }
+
+  @font-face {
+    font-family: FCB;
+    src: url(../../fonts/From\ Cartoon\ Blocks.ttf);
+  }
+  @font-face {
+    font-family: HTTF;
+    src: url(../../fonts/Halloween.otf)
+  }
+  
+  @font-face {
+    font-family: HBT;
+    src: url(../../fonts/halloween_bats.ttf)
+  }
+  
