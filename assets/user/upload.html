@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Adming Imag Uploader</title>
+    <link rel="stylesheet" href="../assets/styles/fonts.css">
+    <link rel="stylesheet" href="../assets/styles/root.css">
+    <link rel="stylesheet" href="../assets/styles/user.upload.css">
+  </head>
+<body>
+  <form action="uploader.php" method="post" enctype="multipart/form-data" class="upload-container">
+    <label for="file-upload" class="custom-file-upload">
+      <span class="upload-icon">&#8679;</span> Upload File
+    </label>
+    <input type="file" id="file-upload" name="fileToUpload" class="hidden">
+    <span id="file-name">Only use JPG, JPEG, PNG & GIF</span>
+    <input type="submit" value="Upload Image" name="submit">
+  </form>
+</body>
+</html>
