@@ -1,0 +1,116 @@
+.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 150px;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 150px;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    height: 100%;
+  }
+  /*
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }*/
+
+.page-4 {
+    padding-top: 100px;
+    height: 100vh;
+}
+
+.page-4 .team-members {
+  gap: 15px;
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-4 .team-members .member {
+  border: 2px solid white;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  height: 260px;
+  transition: all 0.2s ease-in-out;
+}
+
+.page-4 .team-members .member:hover {
+  box-shadow: 0 0 10px white;
+  height: 320px;
+}
+
+.page-4 .team-members .member:hover img {
+  fill: none;
+  box-shadow: 0 0 10px white;
+  -webkit-filter: none;
+  transform: rotate(0deg);
+}
+
+.page-4 .team-members .member:hover .name {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  transform: translateY(-5px);
+}
+
+.page-4 .team-members .member:hover .rank {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  transform: translateY(0px);
+  
+}
+
+.page-4 .team-members .member img {
+  width: 220px;
+  transform: rotate(10deg);
+  cursor: pointer;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.page-4 .team-members .member .name {
+  cursor: pointer;
+  font-size: 25px;
+  color: yellow;
+  visibility: hidden;
+  transition: 0.10s;
+}
+
+.page-4 .team-members .member .rank {
+  cursor: pointer;
+  font-size: 20px;
+  visibility: hidden;
+  transform: translateY(-0px);
+  transition: 0.10s;
+
+}
